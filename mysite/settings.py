@@ -25,7 +25,9 @@ SECRET_KEY = '6)#9*jlh=@2nvxf0@6y*#ak81(f#e68yu0f=pz5zwahw5)dgf_'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['ivanlm.pythonanywhere.com']
+ALLOWED_HOSTS = ['ivanlm.pythonanywhere.com',
+                 '127.0.0.1',
+]
 
 
 # Application definition
